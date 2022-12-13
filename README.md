@@ -1,3 +1,5 @@
+This work was represented with JeongSoo Kim, JaeChan Jo, Jaeseung Won, Wonil Lee
+
 # Signboard_Dataset_for_Post-OCR_Parsing
 We introduce a design of training dataset structure for extracting various information from shop sign for deep learning and parsing
 
@@ -13,6 +15,16 @@ Recently, the demand for multimedia content has increased rapidly, and according
 ### Keyword(s)
 Shop Sign Dataset, Post-OCR, Scene Text Detection, NER Task
 
+
+### Class Definition
+|  No  | Category      | Description                                                                        | 
+| ---- | ------------- | ---------------------------------------------------------------------------------- |
+|   1  | vertical      | vertical shape shop sign                                                           | 
+|   2  | telephone     | mobile phone number, store phone number, store fax number                          | 
+|   3  | noise         | unnecessary information except sign sign text and telephone number                 | 
+|   4  | occlusion     | part of the shop sign is covered by other objects such as tree, electric wire, etc | 
+|   5  | ganpan_object | the appearance of a shop sign                                                      | 
+|   6  | ganpan_text   | information related to the store name                                              | 
 
 
 
