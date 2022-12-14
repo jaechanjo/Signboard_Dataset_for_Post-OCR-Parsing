@@ -1,5 +1,7 @@
-This work by JeongSoo Kim, HyungYoun Na, JaeChan Jo, Jaeseung Won, Wonil Lee, Sungwon Woo 
+This work by JeongSoo Kim, HyungYoun Na, [Jaechan Jo](mailto:jjc12223a@gmail.com), Jaeseung Won, Wonil Lee, Sungwon Woo 
 | [Paper](https://drive.google.com/file/d/1jmo093uR70ruJZR71bGKPc-naaCTbvY_/view?usp=share_link)
+
+Multi Media System Lab, Sogang AI Research.
 
 # Signboard_Dataset_for_Post-OCR_Parsing
 We introduce a design of training dataset structure for extracting various information from shop sign for deep learning and parsing
