@@ -1,4 +1,4 @@
-This work was represented with JeongSoo Kim, HyungYoun Na, JaeChan Jo, Jaeseung Won, Wonil Lee, Sungwon Woo 
+This work by JeongSoo Kim, HyungYoun Na, JaeChan Jo, Jaeseung Won, Wonil Lee, Sungwon Woo 
 | [Paper](https://drive.google.com/file/d/1jmo093uR70ruJZR71bGKPc-naaCTbvY_/view?usp=share_link)
 
 # Signboard_Dataset_for_Post-OCR_Parsing
