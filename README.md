@@ -17,15 +17,22 @@ Shop Sign Dataset, Post-OCR, Scene Text Detection, NER Task
 
 
 ### Class Definition
-|  No  | Category      | Description                                                                        | 
-| ---- | ------------- | ---------------------------------------------------------------------------------- |
-|   1  | vertical      | vertical shape shop sign                                                           | 
-|   2  | telephone     | mobile phone number, store phone number, store fax number                          | 
-|   3  | noise         | unnecessary information except sign sign text and telephone number                 | 
-|   4  | occlusion     | part of the shop sign is covered by other objects such as tree, electric wire, etc | 
-|   5  | ganpan_object | the appearance of a shop sign                                                      | 
-|   6  | ganpan_text   | information related to the store name                                              | 
-
+|  Label Name  |              |              | Description                                                                                              | 
+| ------------ | ------------ | ------------ |--------------------------------------------------------------------------------------------------------- |
+| meta         | version      |              | dataset version                                                                                          | 
+|              | image_id     |              | corresponding image id                                                                                   | 
+|              | image_path   |              | file path where the image is saved                                                                       | 
+|              | image_height |              | height of image (by pixel)                                                                               | 
+|              | image_width  |              | width of image (by pixel)                                                                                |
+| ------------ | ------------ | ------------ | -------------------------------------------------------------------------------------------------------- | 
+| roi          | points       |              | Four coordinates of quadrilateral                                                                        | 
+|              | words        | is_vertical  | for a specific words, vertical shape shop sign                                                           |
+|              |              | is_occlusion | for a specific words, part of the shop sign is covered by other objects such as tree, electric wire, etc |
+|              |              | category     | store_name, telephone, noise, 3 types of words                                                           |
+|              |              | text         | for a specific words, letters on the signboard                                                           |
+|              | roi_name     |              | for a signboard, letters on the signboard                                                                | 
+|              | occlusion    |              | for a signboard, part of the shop sign is covered by other objects such as tree, electric wire, etc      | 
+|              | vertical     |              | for a signboard, vertical shape shop sign                                                                |
 
 
 ### Download link
