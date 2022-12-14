@@ -23,13 +23,13 @@ Shop Sign Dataset, Post-OCR, Scene Text Detection, NER Task
 
 ### Class Definition
 | Semantic Label |              |              | Description                                                                                              | 
-| -------------- | ------------ | ------------ |  -----------------------------------------------------------------------   |
+| -------------- | ------------ | ------------ |  ---------------------------------------------------------------------------------   |
 | meta           | version      |              | dataset version                                                                                          | 
 |                | image_id     |              | corresponding image id                                                                                   | 
 |                | image_path   |              | file path where the image is saved                                                                       | 
 |                | image_height |              | height of image (by pixel)                                                                               | 
 |                | image_width  |              | width of image (by pixel)                                                                                |
-| -------------- | ------------ | ------------ |  -----------------------------------------------------------------------   | 
+| -------------- | ------------ | ------------ |  ---------------------------------------------------------------------------------   | 
 | roi            | points       |              | Four coordinates of quadrilateral                                                                        | 
 |                | words        | is_vertical  | for a specific words, vertical shape shop sign                                                           |
 |                |              | is_occlusion | for a specific words, part of the shop sign is covered by other objects such as tree, electric wire, etc |
